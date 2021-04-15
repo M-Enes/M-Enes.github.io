@@ -1,8 +1,29 @@
+@media screen and (max-width: 1024px) {
+    .contact-column {
+        flex: 1 0 0;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+
 .card-content .png-image {
     max-width: 50%;
     max-height: 50%;
+    margin:1rem auto;
 }
 
-.column .card-content {
+.contact-column .card-content {
     padding: 1rem;
+}
+
+
+.card-content .yt-image {
+    margin: 1.5rem auto;
+}
+
+@media screen and (min-width: 1204px) {
+    .contact-column {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

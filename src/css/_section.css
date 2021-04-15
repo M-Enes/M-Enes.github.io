@@ -8,7 +8,7 @@
         padding-top: 80px;
     }
 
-    .hero-section .hero-content h1{
+    .hero-section .hero-content h1 {
         max-width: 645px;
         font-size: 80px;
     }
@@ -19,7 +19,6 @@
         font-size: 28px;
     }
 
-
     .hero-section .hero-content {
         position: absolute;
         top: 0;
@@ -28,7 +27,7 @@
     }
 
     .hero-section .hero-content h2 {
-        font-size: 40px;  
+        font-size: 40px;
     }
 }
 
@@ -78,17 +77,3 @@
     margin-bottom: 3rem;
     color: #212121;
 }
-/* 
-.card-content .png-image {
-    max-width: 50%;
-    max-height: 50%;
-    margin: 1rem auto;
-}
-
-.card-content .yt-image {
-    margin: 1.5rem auto;
-}
-
-.column .gmail-card{
-    padding-left: 5rem;
-} */
