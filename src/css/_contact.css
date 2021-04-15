@@ -26,4 +26,8 @@
         display: flex;
         flex-wrap: wrap;
     }
+
+    .linkedin-card {
+        margin-left: -2rem;
+    }
 }

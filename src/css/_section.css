@@ -1,11 +1,13 @@
 @media screen and (min-width: 1024px) {
     .hero-section {
         margin-top: 50px;
-        margin-bottom: 600px;
+        margin-bottom: 0px;
     }
 
     .hero-section .hero-image {
-        padding-top: 80px;
+        position: relative;
+        top: -80px;
+        left: 80px;
     }
 
     .hero-section .hero-content h1 {
@@ -51,7 +53,7 @@
 
 /* @Working */
 .working-section {
-    margin-bottom: 250px;
+    margin-bottom: 200px;
 }
 
 .working-section .card-content {
@@ -76,4 +78,39 @@
 .contact-section .section-header {
     margin-bottom: 3rem;
     color: #212121;
+}
+
+
+.working-content .section-row {
+    margin:0;
+}
+
+@media screen and (max-width:1024px) {
+    .hero-section {
+        margin-bottom: 100px;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .working-column {
+        flex: 0 0 calc(100% / 2);
+        max-width: calc(100% / 2);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .working-column {
+        flex: 1 0 0;
+        max-width: 100%;
+    }
+
+    .section-content.working-content .container .section-row {
+        flex: 1 0 0;
+        max-width: 100%;
+    }
 }

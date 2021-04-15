@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" id="html-id">
 
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Muhammed Enes Karaca's Personal Website</title>
+    <title>Muhammed Enes Karaca | Personal Website</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <script src="./dist/main.js"></script>
 
@@ -21,7 +21,7 @@
                                 <img src="" alt="logo">
                             </a>
                         </div>
-                        <div class="column">
+                        <div class="column mobile-none">
                             <nav class="navigation">
                                 <ul class="navigation-list">
                                     <li class="navigation-item">
@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 <div class="column">
-                    <a href="#" class="button icon-button white-button">
+                    <a href="#" class="button icon-button white-button" onclick="changeLang()" id="lang-button">
                         <span>Turkish Language</span>
                         <span>🇹🇷</span>
                     </a>
@@ -65,7 +65,7 @@
                     </p>
             </div>
             <div class="hero-image text-right">
-                <!-- <img src="./img/sample2.png"> -->
+                <img src="./src/img/home_img.png">
             </div>
         </div>
     </section>
@@ -74,10 +74,10 @@
         <header class="section-header text-center">
             <h2>I working about</h2>
         </header>
-        <main class="section-content">
+        <main class="section-content working-content">
             <div class="container">
-                <div class="row">
-                    <div class="column flex-2">
+                <div class="row section-row">
+                    <div class="working-column">
 
                         <div class="card-content">
                             <div class="card-image">
@@ -120,7 +120,7 @@
 
 
                     </div>
-                    <div class="column flex-2">
+                    <div class="working-column">
                         <div class="card-content">
                             <div class="card-image card-hcj-image">
                                 <i>
@@ -186,7 +186,7 @@
                             </div>
                             </a>
                         </div>
-                        <div class="card-content">
+                        <div class="card-content linkedin-card">
                             <a href="https://www.linkedin.com/in/muhammed-enes-karaca-15373020b/">
                             <div class="card-image png-image">
                                 <i>
@@ -231,6 +231,7 @@
     <footer class="footer text-center">
         <a>Copyright© 2021 - Muhammed Enes Karaca</a>
     </footer>
-</body>
 
+    <script src="./index.js"></script>
+</body>
 </html>

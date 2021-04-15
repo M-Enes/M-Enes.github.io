@@ -14,6 +14,10 @@ button,
     font-weight: 500;
 }
 
+.icon-button span {
+    padding-left: 1rem;
+}
+
 .white-button {
     box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
     background-color: #ffffff;

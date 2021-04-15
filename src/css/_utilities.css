@@ -9,3 +9,23 @@
 .text-right {
     text-align: right;
 }
+
+@media screen and (min-width: 1024px) {
+    .desktop-none {
+        display: none;
+    }
+
+    .desktop-show {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .mobile-none {
+        display: none;
+    }
+
+    .mobile-show {
+        display: block;
+    }
+}
