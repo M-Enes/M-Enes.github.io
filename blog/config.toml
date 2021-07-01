@@ -1,0 +1,45 @@
+baseurl = "https://m-enes.github.io/blog"
+title = "Muhammed Enes Karaca | Kişisel Blog"
+author = "Muhammed Enes Karaca"
+canonifyurls = true
+languagecode = "en"
+theme = "hugo-tanka"
+
+enableEmoji = true
+hasCJKLanguage = false
+
+pygmentsstyle = "vs"
+pygmentscodefences = true
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+
+[params]
+  sitename = "Muhammed Enes Karaca | Kişisel Blog"
+  faviconfile = "images/favicon.png"
+  highlightjs = true
+  highlightjslanguages = ["r", "python", "stan"]
+  uselatex = true
+  progressively = false
+# commentsrepo = "user/repo"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[[menu.primary]]
+    name = "Ana Sayfa"
+    url = "/"
+    weight = 1
+[[menu.primary]]
+    name = "Hakkımda"
+    url = "/about/"
+    weight = 2
+[[menu.primary]]
+    name = "GitHub"
+    url = "https://github.com/m-enes"
+    weight = 3
+[[menu.primary]]
+    name = "RSS"
+    url = "/index.xml"
+    weight = 5
